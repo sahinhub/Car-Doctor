@@ -14,37 +14,28 @@ const Header = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-base">
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/about'>About</Link></li>
+        <li><Link to='/services'>Services</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
+        <li><Link to='/Contact'>Contact</Link></li>
       </ul>
     </div>
-    <a className='' href='/'><img className='w-20 ' src={logo} alt="Car Doctor" /></a>
+    <Link className='' href='/'><img className='w-20 ' src={logo} alt="Car Doctor" /></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
+    <ul className="menu menu-horizontal gap-4 px-3 text-base">
+      <li><Link to='/'>Home</Link></li>
+        <li><Link to='/about'>About</Link></li>
+        <li><Link to='/services'>Services</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
+        <li><Link to='/Contact'>Contact</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to='/' className="btn">Appointment</Link>
+   <button className="btn btn-outline btn-primary border-2 rounded-lg">Appoinment</button>
+
   </div>
 </div>
       </header>

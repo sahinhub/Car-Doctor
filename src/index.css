@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Use :root for standard CSS custom properties instead of a nonstandard @theme at-rule */
+@theme{
+    --color-primary:var(--color-primary);
+    --color-secondary:var(--color-secondary);
+}
+:root {
+    --color-primary: #FF3811;
+    --color-secondary: #151515;
+}

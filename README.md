@@ -8,7 +8,7 @@ Car Doctor Sahin is a web platform for car service centers, allowing users to vi
 
 ## Features
 - Home page with service highlights
-- Service booking functionality (coming soon)
+- Service booking functionality (coming soon)   
 - Responsive layout and navigation
 - Modern UI with reusable components
 
