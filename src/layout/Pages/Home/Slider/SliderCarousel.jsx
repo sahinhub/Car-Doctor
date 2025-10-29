@@ -7,7 +7,7 @@ import img4 from '../../../../assets/banner/4.jpg';
 
 const SliderCarousel = () => {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-3">
             <div className="carousel max-h-[600px]">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img

@@ -7,7 +7,7 @@ import Header from './layout/Pages/Shared/Header'
 function App() {
 
   return (
-    <div>
+    <div className=''>
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
