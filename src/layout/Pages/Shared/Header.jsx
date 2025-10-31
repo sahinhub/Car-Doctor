@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-      <header className='bg-base-100 shadow-sm'>
+      <header className='bg-base-100'>
          <div className="navbar container mx-auto">
   <div className="navbar-start justify-between lg:justify-start ">
 

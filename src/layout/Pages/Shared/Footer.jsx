@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-black px-3 py-20'>
-            <footer className="footer grid-cols-9 py-5 container mx-auto sm:footer-horizontal  text-base-content ">
+            <footer className="footer grid-cols-9 text-white py-5 container mx-auto sm:footer-horizontal  ">
                 <aside className=' col-span-full lg:col-span-3'>
                     <Link to='/'><img src={logo} alt="Car Doctor" /></Link>
                     <p>

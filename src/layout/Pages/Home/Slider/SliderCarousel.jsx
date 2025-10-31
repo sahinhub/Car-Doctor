@@ -8,7 +8,7 @@ import img4 from '../../../../assets/banner/4.jpg';
 const SliderCarousel = () => {
     return (
         <div className="container mx-auto px-3">
-            <div className="carousel max-h-[600px]">
+            <div className="carousel max-h-[600px] text-white">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img
                         src={img1}
@@ -19,7 +19,7 @@ const SliderCarousel = () => {
                             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         </div>
                         <div className='space-x-4'>
-                            <button class="btn btn-primary">Discover More</button>
+                            <button className="btn btn-primary">Discover More</button>
                             <button className="btn btn-outline rounded-lg border-white">Latest Project</button>
 
                         </div>
@@ -39,7 +39,7 @@ const SliderCarousel = () => {
                             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         </div>
                         <div className='space-x-4'>
-                            <button class="btn btn-primary">Discover More</button>
+                            <button className="btn btn-primary">Discover More</button>
                             <button className="btn btn-outline rounded-lg border-white">Latest Project</button>
 
                         </div>
@@ -59,7 +59,7 @@ const SliderCarousel = () => {
                             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         </div>
                         <div className='space-x-4'>
-                            <button class="btn btn-primary">Discover More</button>
+                            <button className="btn btn-primary">Discover More</button>
                             <button className="btn btn-outline rounded-lg border-white">Latest Project</button>
 
                         </div>
@@ -79,7 +79,7 @@ const SliderCarousel = () => {
                             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         </div>
                         <div className='space-x-4'>
-                            <button class="btn btn-primary">Discover More</button>
+                            <button className="btn btn-primary">Discover More</button>
                             <button className="btn btn-outline rounded-lg border-white">Latest Project</button>
 
                         </div>
